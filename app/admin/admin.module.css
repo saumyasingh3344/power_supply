@@ -1,0 +1,79 @@
+
+.loginPage {
+  min-height: 100vh;
+  background: #f0f6ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.loginCard {
+  width: 100%;
+  max-width: 430px;
+  padding: 40px;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 10px 35px rgba(20, 33, 61, 0.08);
+}
+
+.loginCard h1 {
+  color: #14213d;
+  font-size: 30px;
+  text-align: center;
+}
+
+.loginCard h1 span {
+  color: #1769e0;
+}
+
+.subtitle {
+  text-align: center;
+  color: #64748b;
+  margin: 12px 0 30px;
+}
+
+.loginCard form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.loginCard label {
+  font-weight: 600;
+  color: #14213d;
+}
+
+.loginCard input {
+  padding: 14px;
+  border: 1px solid #dbe3ef;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+.loginCard input:focus {
+  outline: none;
+  border-color: #1769e0;
+}
+
+.loginCard button {
+  padding: 15px;
+  margin-top: 12px;
+  background: #1769e0;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.loginCard button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.loginCard form p {
+  color: #dc2626;
+  font-size: 14px;
+}
